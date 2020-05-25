@@ -8,6 +8,4 @@ const pool = new Pool({
   port: "5432",
 });
 
-module.exports = {
-  query: (sql, params) => pool.query(sql, params),
-};
+module.exports = pool;
