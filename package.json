@@ -4,12 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon src/server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "pg": "^8.2.1",
     "puppeteer": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
