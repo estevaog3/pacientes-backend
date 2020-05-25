@@ -17,10 +17,10 @@ Os seguintes programas devem estar previamente instalados no seu computador:
 
 0. Clone o repositório do projeto
 
-1. Mova para o diretório do backend:
+1. Mova para o diretório do projeto:
 
 ```
-cd labtecsMobile/backend
+cd pacientes-backend
 ```
 
 ##### Configurando o banco de dados de desenvolvimento
