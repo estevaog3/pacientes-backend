@@ -15,7 +15,10 @@ Os seguintes programas devem estar previamente instalados no seu computador:
 
 #### Passo a passo
 
-0. Clone o repositório do projeto
+0. Clone o repositório do projeto:
+```
+https://github.com/EstevaoCostaG3/pacientes-backend.git
+```
 
 1. Mova para o diretório do projeto:
 
