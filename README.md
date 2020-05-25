@@ -80,3 +80,16 @@ ou, com npm:
 ```
 npm run start
 ```
+
+## Rotas implementadas
+
+- `/pacientes/cadastrar/CPF`
+
+  1. Consulta CPF no banco de dados. Se existir, retorna todos os dados do paciente
+  2. Senão, obtém o nome do paciente a partir do cpf
+  3. Inserir paciente com CPF e nome no banco de dados
+  4. Retornar JSON com CPF e nome do paciente
+
+- `/pacientes/listar/`
+  1. Obter todos os nomes e CPFs dos pacientes no BD
+  2. Retornar esses dados como array de JSON
