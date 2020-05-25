@@ -81,7 +81,31 @@ ou, com npm:
 npm run start
 ```
 
-## Rotas implementadas
+## Como consumir esta API
+
+Para utilizar esta API (ver rotas na seção seguinte), um cliente deve fazer requisições de acordo com o formato aqui especificado.
+
+- Cadastrar paciente pelo CPF:
+
+```
+curl -X POST -H 'Content-Type: application/json' 'http://localhost:3333/pacientes/cadastrar/CPF'
+```
+
+O `CPF` deve conter apenas números, como este:
+
+```
+curl -X POST -H 'Content-Type: application/json' 'http://localhost:3333/pacientes/cadastrar/12948514592'
+```
+
+##### Nota: este CPF não existe, substitua com um CPF que exista para realizar um cadastro.
+
+- Listar CPF e nome de todos os pacientes:
+
+```
+curl -X GET -H 'Content-Type: application/json' 'http://localhost:3333/pacientes/listar'
+```
+
+## Rotas da API
 
 - `/pacientes/cadastrar/CPF`
 
